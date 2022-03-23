@@ -1,0 +1,8 @@
+prefix=/home/jovanni/owr_ws/install
+
+Name: keyboard_to_joystick
+Description: Description of keyboard_to_joystick
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

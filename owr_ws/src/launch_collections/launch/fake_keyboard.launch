@@ -1,0 +1,5 @@
+<launch>
+    <node name="keyboard_reader" pkg="keyboard_publisher" type="keyboard"/>
+    <node name="key_to_joy" pkg="keyboard_to_joystick" type="key_to_joy"/>
+    <node name="joy_to_vel" pkg="joy_to_twist" type="joy_to_vel"/>
+</launch>

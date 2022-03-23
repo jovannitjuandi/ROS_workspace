@@ -1,0 +1,2 @@
+fake_joystick/joy_to_twist:fake_joystick/keyboard_publisher:fake_joystick/keyboard_to_joystick:gazebo_ros_demos/gazebo_tutorials:gazebo_ros_demos/rrbot_control:gazebo_ros_demos/rrbot_description:gazebo_ros_demos/rrbot_gazebo:launch_collections:rqt_virtual_joystick:simple_package:urdf_rover/rover_control:urdf_rover/rover_description:urdf_rover/rover_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/jovanni/ROS_workspace/owr_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jovanni/ROS_workspace/owr_ws/install -G Unix Makefiles

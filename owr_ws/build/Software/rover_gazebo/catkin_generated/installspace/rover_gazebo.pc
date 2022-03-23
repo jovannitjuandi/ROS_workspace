@@ -1,0 +1,8 @@
+prefix=/home/jovanni/owr_ws/install
+
+Name: rover_gazebo
+Description: Description of rover_gazebo
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

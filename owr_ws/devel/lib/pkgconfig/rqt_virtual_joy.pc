@@ -1,0 +1,8 @@
+prefix=/home/jovanni/owr_ws/devel
+
+Name: rqt_virtual_joy
+Description: Description of rqt_virtual_joy
+Version: 0.1.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

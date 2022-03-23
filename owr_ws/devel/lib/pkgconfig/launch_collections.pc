@@ -1,0 +1,8 @@
+prefix=/home/jovanni/owr_ws/devel
+
+Name: launch_collections
+Description: Description of launch_collections
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

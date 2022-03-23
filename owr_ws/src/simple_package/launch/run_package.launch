@@ -1,0 +1,4 @@
+<launch>
+    <node name="publisher" pkg="simple_package" type="talker" output="screen"/>
+    <node name="subscriber" pkg="simple_package" type="listener" output="screen"/>
+</launch>

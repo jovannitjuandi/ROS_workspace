@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+        <param name="publish_frequency" type="double" value="50.0" />
+        <param name="tf_prefix" type="string" value="" />
+    </node>
+
+    <include file="$(find rover_description)/launch/rover_rviz.launch"/>
+    <include file="$(find rover_gazebo)/launch/rover.launch" />
+    <include file="$(find rover_control)/launch/rover.launch" />
+</launch>

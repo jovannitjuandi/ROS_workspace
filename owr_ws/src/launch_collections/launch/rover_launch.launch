@@ -1,0 +1,7 @@
+<launch>
+    <group ns="rover1">
+        <include file="$(find rover_description)/launch/rover_rviz.launch"/>
+    </group>
+    <include ns="rover1" file="$(find rover_gazebo)/launch/rover.launch" />
+    <include ns="rover1" file="$(find rover_control)/launch/rover.launch" />
+</launch>
